@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: grid;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(87, 99, 99);
+}
+#socio ul
+{
+   padding: 0;
+   list-style: none;
+   margin-left: 500px;
+   margin-right:600px ;
+}
+.contact
+{
+   
+    text-align: center;
+    padding: 3px 10px;
+    border: 1px solid wheat;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    color: rgb(103, 42, 42);
+    display: flex;
+}
+.contact .details{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+.contact .delete-btn
+{
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.contact p{
+    margin: 5px 0;
+}
+#mrx{
+    margin-left: 50
+    0px;
+    margin-right: 400px;
+}
